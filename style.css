@@ -1,0 +1,19 @@
+h1{
+	background: green;
+	font-size: 50px;
+}
+p
+{
+	border:1px solid red;
+
+}
+h2
+{
+ border: 2px solid orange;
+}
+img
+{
+
+	height:500px;
+	width: 400px;
+}
