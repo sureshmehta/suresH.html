@@ -1,19 +1,27 @@
-h1{
-	background: green;
-	font-size: 50px;
-}
-p
+h1
 {
-	border:1px solid red;
+	background: darkgrey;
+	font-size: 30px;
+	width: 300px;
+
 
 }
 h2
 {
- border: 2px solid orange;
+
+/*border: 5px solid blue;*/
+background: green;
 }
 img
+{    background: green;
+	
+	height: 200px;
+	width: 300px;
+}
+body
 {
-
-	height:500px;
-	width: 400px;
+	 background: lightblue;
+}
+p{
+     background: lightgreen;
 }
