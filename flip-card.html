@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+	
+		.main
+		{
+			border: 3px solid lightblue;
+			
+
+         height: 600px;
+         width: 350px;
+         /*background: lightblue;*/
+         margin: 200px auto;
+         position: relative;
+
+		}
+		.main .front, .back
+		{
+			height: 600px;
+			width:350px ;
+			background: lightblue;
+			position: absolute;
+			top:0;
+			left:0;
+
+			backface-visibility: hidden;
+			transition: 2s;
+		}
+		.main .front
+		{
+
+			transform: rotateY(180deg);
+		}
+		.main.back
+		{
+
+       transform: rotateY(0deg);
+
+		}
+		.main:hover .back
+		{
+			transform: rotateY(180deg);
+		}
+		.main:hover .front
+		{
+			transform: rotateY(0deg);
+		}
+
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="front">
+		<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b5.jpg" height="100%" width="100%">
+		
+	</div>
+	<div class="back">
+	<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b8.jpg" height="100%" width="100%">
+</div>
+</div>
+
+</body>
+</html>

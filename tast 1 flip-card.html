@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<style type="text/css">
+	   
+		.main
+		{
+          height: 500px;
+          width: 250px;
+          background: lightpink;
+          margin: 200px auto;
+          position: relative;
+          top: 0px;
+          left: 0px;
+
+         backface-visibility: hidden;
+            transition: 5s;
+
+        
+         }
+		.main .front,.back
+		{
+         height: 500px;
+          width: 250px;
+          background: lightgreen;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+
+		}
+		
+         .main.front  
+		{
+        transform:rotatey(180deg);
+        }
+		  .main.back  
+		{
+      transform:rotateY(0deg);
+       }
+        .main:hover .back
+        {
+        	transform:rotateY(180deg);
+        }
+        .main:hover .front
+        {
+        transform:rotateY(0deg);
+
+
+        }
+
+
+    
+
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="front">
+			<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b2.jpg" height="100%" width="100%">
+		</div>
+
+		<div class="back">
+		   <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b2.jpg" height="100%" width="100%">
+		</div>
+	  
+	</div>
+
+
+</body>
+</html>
