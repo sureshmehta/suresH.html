@@ -1,0 +1,36 @@
+#page
+{
+	border: 3px solid blue;
+	border-style:groove;
+}
+#header
+{
+	font-size: 30px;
+	border: 2px;
+
+
+}
+.menu li
+{
+	border: 2px solid;
+	display: inline-block;
+	background: lightblue;
+}
+.menu li a
+{
+	display: block;
+	padding: 5px 10px;
+}
+#content
+{
+ font-size: 20px;
+ color: red;
+  float: left;
+}
+#footer 
+{
+
+	clear: both;
+	padding: 5px 10px;
+	text-align: right;
+}

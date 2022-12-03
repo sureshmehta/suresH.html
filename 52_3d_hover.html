@@ -1,70 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
 	<title></title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 	<style type="text/css">
-		
-		a 
+		*{
+			box-sizing: border-box;
+		}
+		a
 		{
-			height: 50px;
-			width: 50px;
-/*			background: gray;*/
-			display: block;
-			position: relative;
-			transition: 1s;
+         height: 50px;
+         width: 50px;
+         /*border: 2px solid;*/
+        position: relative;
+        display: block;
+        transition: 5s;
 			transform-style: preserve-3d;
-			margin: 300px auto;
-		}
+			margin: 200px auto;
+          
+        }
+        .front,.back
+        {
 
-		.front,.back
-		{
-			height: 50px;
-			width: 50px;
-			border:2px solid;
-			position: absolute;
-			top:0px;
-			left: 0;
-			backface-visibility: hidden;
+        height: 50px;
+        width: 50px;
+        background: orange;
+        position: absolute;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden;
 
-			transform: translateZ(25px);
-			
-		}
-
-		.front
-		{
-
-			background: lightslategray;
-		}
+		transform: translateZ(25px);
 
 
-		.back 
-		{
-			background: lightcoral;
-			transform: rotateX(90deg) translateZ(25px);
-		}
+        }
 
-		a:hover
-		{
-			transform: rotateX(-90deg);
-		}
+        }
+        .front
+        {
+        background: lightblue;
+
+        }
+        .back
+        {
+          background: green;
+          transform: rotateX(90deg) translateZ(25px);
+        }
+        a:hover
+        {
+           /*transform: rotateX(-90deg);*/
+           transform: translate(500px,200px) scale(1.0) rotate(150deg);
+        }
 	</style>
 </head>
 <body>
-
-	<a href="">
-
-		<div class="front">
-			<i class="fa-brands fa-facebook-f"></i>
-		</div>
-		<div class="back">
-			<i class="fa-brands fa-facebook-f"></i>
-		</div>
-
-	</a>
-
+       <a href="">
+       	<div class="front">
+       		<i class="fa-brands fa-facebook"></i>
+       		
+       	</div>
+       	<div class="back">
+       		<i class="fa-brands fa-facebook"></i>
+       	</div>
+	
+</a>
 </body>
 </html>
