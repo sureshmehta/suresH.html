@@ -15,6 +15,7 @@
 	border: 2px solid;
 	display: inline-block;
 	background: lightblue;
+	padding-right:50px;
 }
 .menu li a
 {
@@ -25,12 +26,23 @@
 {
  font-size: 20px;
  color: red;
+  
   float: left;
 }
 #footer 
 {
 
-	clear: both;
-	padding: 5px 10px;
-	text-align: right;
+	height: 200px;
+	width: 30%;
+	border: 2px solid;
+	background:lightskyblue;
+	padding-left:60%;
+}
+.h1
+{
+   border:12px solid pink;
+   border-style: ridge;
+   font-size: 50px;
+
+	color:green;
 }
