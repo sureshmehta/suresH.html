@@ -1,0 +1,146 @@
+*{box-sizing: border-box;margin: 0px;padding: 0px;background: lightgray;}
+.header
+{
+
+	height: 80px;
+	width: 100%;
+	background: transparent;
+	display: flex;
+}
+.header .main 
+{
+	height: 80px;
+	width: 45%;
+	/*border: 2px solid;*/
+	text-align: center;
+	line-height: 80px;
+}
+.header .main li 
+
+{
+
+	display: inline;
+	list-style: none;
+	margin-right: 25px;
+
+
+}
+.header .main a 
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.header .main a:hover
+{
+	color: coral;
+} 
+.header .logo
+{
+	height: 80px;
+	width: 10%;
+	/*border: 2px solid;*/
+	text-align: center;
+}
+.header .logo img
+{
+	height: 100%;
+	width: 20%;
+	object-fit: contain;
+}
+
+.header .sign 
+{
+	height: 80px;
+	width: 45%;
+	/*border: 2px solid;*/
+	text-align: center;
+	line-height: 80px;
+}
+.header .sign li 
+
+{
+
+	display: inline;
+	list-style: none;
+	margin-right: 20px;
+
+
+}
+.header .sign a 
+{
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+/*<!-------------------------------headerand------------------------*/
+
+.contan
+{
+	height: 500px;
+	width: 100%;
+	border: 2px solid;
+	display: flex;
+	padding: 30px;
+
+
+}
+.box1
+{
+	height: 350px;
+	width: 50%;
+	/*background:lightblue;*/
+	padding: 30px;
+	font-weight: bold;
+
+
+}
+.box2
+{
+	height: 350px;
+	width: 50%;
+	/*background:lightblue;*/
+	padding: 30px;
+	font-weight: bold;
+
+}
+/*<!-------------------------------contan------------------------*/
+.contan2
+{
+	height: 700px;
+    width: 100%;
+   border: 2px solid;
+   margin-top: 30px;
+  display: flex;
+
+
+}
+.boxA 
+{
+	height: 400px;
+	width: 80%;
+	font-size: 30px;
+    line-height: 50px;
+   ;
+}
+.footer 
+{
+	height: 500px;
+	width: 100%;
+	border: 2px solid;
+	display: flex;
+
+}
+.footer1 
+{
+    height: 500px;
+	width: 25%;
+	border: 2px black;
+	padding: 50px;
+	font-weight: bold;
+    color: red;
+
+
+}
