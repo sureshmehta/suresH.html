@@ -1,0 +1,97 @@
+*{ margin: 0px; padding: 0px; box-sizing: border-box;}
+.main
+{  
+   grid-gap: 10px;
+	display: grid;
+	grid-template-rows: 60px 400px 500px 400px ;
+	grid-template-columns: 100px 200px 300px 400px ;
+/*  ----------------------------------main and-----------------------------*/
+
+}
+.navbar
+{
+	background: red;
+  grid-column: 1/6 ;
+  border: 2px solid;
+  background-color: black;
+   color: #fff;
+   display: flex;
+   flex-wrap: wrap;
+  font-size: 18px;
+}
+.navbar a
+ {
+   color: #fff;
+   text-decoration: none;
+   padding: 1em;
+
+ }
+ .navbar a:hover 
+ {
+  background-color:white;
+
+ }
+/*-----------------------------------navbar and--------------------------------------*/
+.cantant
+{
+	background: pink;
+  grid-column: 1/6;
+  border: 2px solid;
+  position: relative;
+
+}
+.img
+{
+ position: absolute;
+ top:30%;
+ left:200px;
+ color:yellow;
+ font-size: 40px;
+}
+/*-----------------------------------contant and--------------------------------------*/
+
+.cantant2
+{
+/*	background: black;*/
+  grid-column: 1/5 ;
+  border: 2px white;
+  padding: 30px;
+}
+.cantant2:hover
+{
+  padding: 10px;
+}
+/*------------------------------------cantant2 and---------------------------------------*/
+.sidebar
+{
+  border: 4px dashed;
+  text-align: center;
+  font-size: 18px;
+  
+}
+/*------------------------------------sidebar and---------------------------------------*/
+.boxA
+{
+  grid-column: 1/4;
+  border: 2px solid;
+}
+.boxB
+{
+	background:yellow;
+  grid-column:4/6;
+   border: 2px solid;
+  
+
+}
+.div7
+{
+  background: purple;
+  grid-column: 1/6;
+  grid-row: 4/6;
+  border: 2px solid;
+  
+}
+
+
+
+

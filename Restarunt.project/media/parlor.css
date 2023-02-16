@@ -1,0 +1,36 @@
+@media(max-width:500px) 
+{
+.box{ display:block;height:500px }
+.logo{left:120px;}
+.btn{ display: block; height: 100px;}
+.logo h2{ width: 350px;margin-left: -70px}
+.logo h1{width:350px;margin-left: -70px}
+.logo p{width: 350px;margin-left: -70px;padding: 10px}
+.btn{height: 50px;width: 250px;margin-top: 10px;margin-left: -30px}
+
+
+
+  
+.contant .a{width: 100%;margin-bottom: 5px}
+.contantA .a{width: 100%;margin-bottom: 5px}
+
+
+.image #A .bold{border:1px solid;width: 100%}
+#B{margin-top: 50px;width: 100%}
+#A{margin-bottom: 100px;width: 100%;height: 580px}
+#A li{padding-bottom: 5px}
+
+
+.info{height: 700px}
+.info h3{line-height: 50px}
+.info .fom{height: 350px;top: 40%;left: 0%;width: 100%;margin: auto;}
+
+.images{height: 1100px;}
+.photo1 li{padding-bottom: 8px}
+#b{width: 40%;margin-left: 120px}
+
+.logo2{height: 950px;width: 100%}
+.logo2 h1{margin-top: -65px;width: 150%;margin-left: -70px}
+.logo2 h2{width: 150%;margin-left: -70px}
+.logo2 img{height: 30%;width: 150%;margin-left: -70px;}
+}

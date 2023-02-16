@@ -1,0 +1,21 @@
+@media(max-width:500px) 
+{
+.navbar{display: none; background:white}
+ .navbar a{display: none;}
+ .main{width: 100%}
+ .A{width: 100%}
+.B{width: 100%}
+.x{width: 50%;padding-top: 50px;padding-left:50px}
+.y{width: 100%;margin-top: 100px; padding: 20px;padding-top: 20px}
+.bgm{height: 800px}
+.inner{height: 600px}
+.image{width: 100% ; }
+.img1{width: 50%;margin-left: 100px}
+.img2{width: 50%;margin-left: 100px}
+.img3{width: 50%;margin-left: 100px}
+.img4{width: 50%;margin-left: 100px}
+
+.box1{width:100%;padding: 10px}
+.box2{width: 100%;padding: 10px;margin-top: -150px}
+.box3{width: 100%;margin-top: -300px}
+}
